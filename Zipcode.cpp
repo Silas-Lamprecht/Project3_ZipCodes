@@ -44,9 +44,9 @@ int Zipcode::Pack(IOBuffer& Buffer) const {
     if (numBytes == -1) return FALSE;
     numBytes = Buffer.Pack(latitude);
     if (numBytes == -1) return FALSE;
-	numBytes = Buffer.Pack(longitude);
-	if (numBytes == -1) return FALSE;
-	return TRUE;
+    numBytes = Buffer.Pack(longitude);
+    if (numBytes == -1) return FALSE;
+    return TRUE;
 }
 
 /*!
@@ -63,6 +63,9 @@ int Zipcode::Unpack(IOBuffer& Buffer) {
     numBytes = Buffer.Unpack(place);
     if (numBytes == -1) return FALSE;
     place[numBytes] = 0;
+	numBytes = Buffer.Unpack(state);
+    if (numBytes == -1) return FALSE;
+    state[numBytes] = 0;
     numBytes = Buffer.Unpack(county);
     if (numBytes == -1) return FALSE;
     county[numBytes] = 0;
@@ -85,7 +88,7 @@ int Zipcode::InitBuffer(FixedFieldBuffer& Buffer) {
     result = Buffer.AddField(5);
     result = result && Buffer.AddField(23);
     result = result && Buffer.AddField(2);
-    result = result && Buffer.AddField(15);
+    result = result && Buffer.AddField(20);
     result = result && Buffer.AddField(9);
     result = result && Buffer.AddField(9);
     return result;
@@ -119,8 +122,8 @@ void Zipcode::Print(ostream& stream, char* label) const {
     else stream << label;
     stream << "\n\t zip '" << zip << "'\n"
         << "\tplace '" << place << "'\n"
-        << "\t   state '" << state << "'\n"
+        << "\tstate '" << state << "'\n"
         << "\tcounty '" << county << "'\n"
         << "\tlongitude '" << longitude << "'\n"
-		<< "\tlatitude '" << latitude << "'\n";
+        << "\tlatitude '" << latitude << "'\n";
 }
