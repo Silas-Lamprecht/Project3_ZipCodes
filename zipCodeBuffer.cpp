@@ -51,17 +51,8 @@ void zipCodeBuffer::readFile() {
         newRecord.longitude = stod(longSubString);
         zipCodeBuffer::zipList.push_back(newRecord);
     }
-    for (size_t i = 0; i < zipList.size(); i++){
-        //std::cout << "entered" << std::endl;
-        std::cout << zipList[i].zip << std::endl;
-        std::cout << zipList[i].name << std::endl;
-        std::cout << zipList[i].stateName<< std::endl;
-        std::cout << zipList[i].county << std::endl;
-        std::cout << zipList[i].latitude << std::endl;
-        std::cout << zipList[i].longitude << std::endl;
-    }
+
     // Close the file
     file.close();
-
     //return 0;
 }

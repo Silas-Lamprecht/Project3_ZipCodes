@@ -9,6 +9,7 @@
 #include <fstream>
 #include <vector>
 #include <sstream>
+#include "algorithm"
 class zipCodeBuffer {
 public:
     struct zipCodeRecord{
