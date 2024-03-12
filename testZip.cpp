@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include <algorithm>
 #include <vector>
 #include "Zipcode.h"
 
@@ -42,6 +43,11 @@ vector<Zipcode> readDataFromFile(const string& filename) {
     return zipcodes;
 }
 
+bool compareByState(const Zipcode& a, const Zipcode& b) {
+    return std::string(a.getState()) < std::string(b.getState());
+}
+
+
 void printZipcodes(const vector<Zipcode>& zipcodes) {
     // Initialize iterator to the beginning of the vector
     vector<Zipcode>::const_iterator it = zipcodes.begin();
@@ -61,7 +67,7 @@ void printZipcodes(const vector<Zipcode>& zipcodes) {
 int main() {
     vector<Zipcode> zipcodes = readDataFromFile("us_postal_codes.csv");
     // Call printZipcodes function to print Zipcode information
+	std::sort(zipcodes.begin(), zipcodes.end(), compareByState);
     printZipcodes(zipcodes);
-    
     return 0;
 }
