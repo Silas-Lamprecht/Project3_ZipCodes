@@ -102,13 +102,20 @@ int main() {
 	std::sort(zipcodes.begin(), zipcodes.end(), compareByState);
 	map<string, pair<pair<string, string>, pair<string, string> > > extremeCoords = findExtremeCoordinates(zipcodes);
 
+// Initialize the iterator to the beginning of the map
+	map<string, pair<pair<string, string>, pair<string, string> > >::const_iterator it = extremeCoords.begin();
+
+// Move the iterator to the second element
+	++it;
+
 // Output the extreme coordinates for each state
-	for (map<string, pair<pair<string, string>, pair<string, string> > >::const_iterator it = extremeCoords.begin(); it != extremeCoords.end(); ++it) {
+	for (; it != extremeCoords.end(); ++it) {
 		cout << "State: " << it->first << endl;
 		cout << "Easternmost Zipcode: " << it->second.first.first << ", Westernmost Zipcode: " << it->second.second.first << endl;
 		cout << "Southernmost Zipcode: " << it->second.first.second << ", Northernmost Zipcode: " << it->second.second.second << endl;
 		cout << endl;
 	}
-    return 0;
+
+	return 0;
 
 }
