@@ -1,0 +1,65 @@
+Script started on Tue 12 Mar 2024 10:44:02 PM CDT
+]0;de3464rs@csci4:~/Project2[?1034h[de3464rs@csci4 Project2]$ exit[1Pnd./a.outg++ testZip.cpping.cppZip.cpp[10Pclearraarg++ testZip.cpp[10Pclearg++ testZip.cpp[10Pclearg++ testZip.cpp[8P./a.outg++ testZip.cpp[8P./a.outg++ testZip.cpp[8P./a.outg++ testZip.cpp[8P./a.outg++ testZip.cpp[8P./a.outg++ testZip.cpp=[K[K[K[K[K[K[K[KPlace.cpp
+]0;de3464rs@csci4:~/Project2[de3464rs@csci4 Project2]$ g++ testPlace.cppexit[K[1Pnd./a.out
+State               Easternmost Place   Westernmost Place   Southernmost Place  Northernmost Place  
+AA                  APO                 APO                 APO                 APO                 
+AK                  Prudhoe Bay         Manokotak           Prudhoe Bay         Manokotak           
+AL                  Montgomery          Waterloo            Montgomery          Waterloo            
+AP                  FPO                 FPO                 FPO                 FPO                 
+AR                  Burdette            Centerton           Burdette            Centerton           
+AZ                  Glendale            Tucson              Glendale            Tucson              
+CA                  Hinkley             City Of Industry    Hinkley             City Of Industry    
+CO                  Atwood              Denver              Atwood              Denver              
+CT                  New Haven           Bloomfield          New Haven           Bloomfield          
+DC                  Washington          Washington          Washington          Washington          
+DE                  Greenwood           Wilmington          Greenwood           Wilmington          
+FL                  Hollywood           Jacksonville        Hollywood           Jacksonville        
+FM                  Pohnpei             Yap                 Pohnpei             Yap                 
+GA                  Reynolds            Girard              Reynolds            Girard              
+HI                  Honolulu            Keaau               Honolulu            Keaau               
+IA                  Langworthy          Shannon City        Langworthy          Shannon City        
+ID                  Hailey              Grand View          Hailey              Grand View          
+IL                  Chicago             Sibley              Chicago             Sibley              
+IN                  Wakarusa            Vallonia            Wakarusa            Vallonia            
+KS                  Rossville           Sun City            Rossville           Sun City            
+KY                  Louisville          Sweeden             Louisville          Sweeden             
+LA                  Hall Summit         Pineville           Hall Summit         Pineville           
+MA                  Everett             Chicopee            Everett             Chicopee            
+MD                  Harmans             Upper Marlboro      Harmans             Upper Marlboro      
+ME                  Steuben             Eustis              Steuben             Eustis              
+MH                  Ebeye               Marshall Islands    Ebeye               Marshall Islands    
+MI                  Richland            Novi                Richland            Novi                
+MN                  Minneapolis         Richville           Minneapolis         Richville           
+MO                  Valley Park         Pittsburg           Valley Park         Pittsburg           
+MP                  Saipan              Tinian              Saipan              Tinian              
+MS                  New Albany          Pattison            New Albany          Pattison            
+MT                  Anaconda            Brusett             Anaconda            Brusett             
+NC                  Pembroke            Red Oak             Pembroke            Red Oak             
+ND                  Bowdon              Strasburg           Bowdon              Strasburg           
+NE                  Duncan              Omaha               Duncan              Omaha               
+NH                  Springfield         Temple              Springfield         Temple              
+NJ                  Oaklyn              Nutley              Oaklyn              Nutley              
+NM                  Eagle Nest          Albuquerque         Eagle Nest          Albuquerque         
+NV                  Las Vegas           Baker               Las Vegas           Baker               
+NY                  Moriah Center       New York            Moriah Center       New York            
+OH                  East Palestine      Lacarne             East Palestine      Lacarne             
+OK                  Oklahoma City       Tulsa               Oklahoma City       Tulsa               
+OR                  Winchester          Salem               Winchester          Salem               
+PA                  Coolspring          Markleysburg        Coolspring          Markleysburg        
+PW                  Palau               Palau               Palau               Palau               
+RI                  Harmony             Providence          Harmony             Providence          
+SC                  Williamston         Fork                Williamston         Fork                
+SD                  Worthing            Ree Heights         Worthing            Ree Heights         
+TN                  Chattanooga         Memphis             Chattanooga         Memphis             
+TX                  Seagraves           Pinehurst           Seagraves           Pinehurst           
+UT                  Ogden               Bingham Canyon      Ogden               Bingham Canyon      
+VA                  Bracey              Pocahontas          Bracey              Pocahontas          
+VT                  East Haven          Montpelier          East Haven          Montpelier          
+WA                  Seattle             Conconully          Seattle             Conconully          
+WI                  Kewaunee            Spooner             Kewaunee            Spooner             
+WV                  Lansing             Cottageville        Lansing             Cottageville        
+WY                  Casper              Bondurant           Casper              Bondurant           
+]0;de3464rs@csci4:~/Project2[de3464rs@csci4 Project2]$ ./a.outg++ testPlace.cppexit[K
+exit
+
+Script done on Tue 12 Mar 2024 10:44:20 PM CDT
