@@ -64,16 +64,16 @@ map<string, pair<pair<string, string>, pair<string, string> > > findExtremeCoord
         // Update the extreme coordinates if necessary
         pair<pair<string, string>, pair<string, string> >& stateCoords = extremeCoordinates[currentState];
         if (stateCoords.first.first.empty() || zipcodes[i].getLongitude() < stateCoords.first.first) {
-            stateCoords.first.first = zipcodes[i].getLongitude();
+            stateCoords.first.first = zipcodes[i].getZip();
         }
         if (stateCoords.second.first.empty() || zipcodes[i].getLongitude() > stateCoords.second.first) {
-            stateCoords.second.first = zipcodes[i].getLongitude();
+            stateCoords.second.first = zipcodes[i].getZip();
         }
         if (stateCoords.first.second.empty() || zipcodes[i].getLatitude() < stateCoords.first.second) {
-            stateCoords.first.second = zipcodes[i].getLatitude();
+            stateCoords.first.second = zipcodes[i].getZip();
         }
         if (stateCoords.second.second.empty() || zipcodes[i].getLatitude() > stateCoords.second.second) {
-            stateCoords.second.second = zipcodes[i].getLatitude();
+            stateCoords.second.second = zipcodes[i].getZip();
         }
     }
 
@@ -105,11 +105,10 @@ int main() {
 // Output the extreme coordinates for each state
 	for (map<string, pair<pair<string, string>, pair<string, string> > >::const_iterator it = extremeCoords.begin(); it != extremeCoords.end(); ++it) {
 		cout << "State: " << it->first << endl;
-		cout << "Least Longitude: " << it->second.first.first << ", Greatest Longitude: " << it->second.second.first << endl;
-		cout << "Least Latitude: " << it->second.first.second << ", Greatest Latitude: " << it->second.second.second << endl;
+		cout << "Easternmost Zipcode: " << it->second.first.first << ", Westernmost Zipcode: " << it->second.second.first << endl;
+		cout << "Southernmost Zipcode: " << it->second.first.second << ", Northernmost Zipcode: " << it->second.second.second << endl;
 		cout << endl;
 	}
-	printZipcodes(zipcodes);
     return 0;
 
 }
