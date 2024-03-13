@@ -2,6 +2,7 @@
 #include <fstream>
 #include <sstream>
 #include <algorithm>
+#include <iomanip>
 #include <map>
 #include <limits> 
 #include <vector>
@@ -50,18 +51,15 @@ bool compareByState(const Zipcode& a, const Zipcode& b) {
 }
 
 map<string, pair<pair<string, string>, pair<string, string> > > findExtremeCoordinates(const vector<Zipcode>& zipcodes) {
-    map<string, pair<pair<string, string>, pair<string, string> > > extremeCoordinates; // Map to store extreme coordinates for each state
+    map<string, pair<pair<string, string>, pair<string, string> > > extremeCoordinates;
 
-    // Iterate through the zipcodes
     for (size_t i = 0; i < zipcodes.size(); ++i) {
         const string& currentState = zipcodes[i].getState();
 
-        // If the state is not already present in the map, initialize its extreme coordinates
         if (extremeCoordinates.find(currentState) == extremeCoordinates.end()) {
             extremeCoordinates[currentState] = make_pair(make_pair("", ""), make_pair("", ""));
         }
 
-        // Update the extreme coordinates if necessary
         pair<pair<string, string>, pair<string, string> >& stateCoords = extremeCoordinates[currentState];
         if (stateCoords.first.first.empty() || zipcodes[i].getLongitude() < stateCoords.first.first) {
             stateCoords.first.first = zipcodes[i].getPlace();
@@ -82,23 +80,26 @@ map<string, pair<pair<string, string>, pair<string, string> > > findExtremeCoord
 
 int main() {
     vector<Zipcode> zipcodes = readDataFromFile("us_postal_codes.csv");
-    // Call printZipcodes function to print Zipcode information
 	std::sort(zipcodes.begin(), zipcodes.end(), compareByState);
 	map<string, pair<pair<string, string>, pair<string, string> > > extremeCoords = findExtremeCoordinates(zipcodes);
 
-// Initialize the iterator to the beginning of the map
 	map<string, pair<pair<string, string>, pair<string, string> > >::const_iterator it = extremeCoords.begin();
 
-// Move the iterator to the second element
 	++it;
-	
-// Output the extreme coordinates for each state
+	cout << "State"
+     << setw(20) << "Easternmost Place"
+     << setw(20) << "Westernmost Place"
+     << setw(20) << "Southernmost Place"
+     << setw(20) << "Northernmost Place" << endl;
+
 	for (; it != extremeCoords.end(); ++it) {
-		cout << "State: " << it->first << endl;
-		cout << "Easternmost Zipcode: " << it->second.first.first << ", Westernmost Zipcode: " << it->second.second.first << endl;
-		cout << "Southernmost Zipcode: " << it->second.first.second << ", Northernmost Zipcode: " << it->second.second.second << endl;
-		cout << endl;
+		if(it->first == "CouLat")
+			++it;
+		cout << left << setw(20) << it->first
+         << setw(20) << it->second.first.first
+         << setw(20) << it->second.second.first
+         << setw(20) << it->second.first.second
+         << setw(20) << it->second.second.second << endl;
 	}
-	
-	return 0;
+
 }
