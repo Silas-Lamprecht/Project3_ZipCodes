@@ -1,0 +1,125 @@
+Script started on Thu 11 Apr 2024 12:42:22 AM CDT
+]0;de3464rs@csci4:~/Project2[?1034h[de3464rs@csci4 Project2]$ cd Project2[4P./a.outg++ testRecord.cpp[7Pcd Project2g++ testRecord.cpp[K[K[K[K[K[K[K[K[K[KZipo[K.cpp
+]0;de3464rs@csci4:~/Project2[de3464rs@csci4 Project2]$ g++ testZip.cpp[4Pcd Project2[4P./a.outg++ testRecord.cpp[7Pcd Project2[4P./a.outg++ testRecord.cppRecordTest.cpptestRecord.cppRecordTest.cppclear[Kg++ RecordTest.cpptestRecord.cpp[11P./a.outcd Project2[4P./a.out
+State Easternmost Zipcode Westernmost ZipcodeSouthernmost ZipcodeNorthernmost Zipcode
+AA                  34034               34034               34034               34034               
+AK                  99830               99576               99830               99576               
+AL                  36088               36720               36088               36720               
+AP                  96507               96373               96507               96373               
+AR                  71748               72102               71748               72102               
+AZ                  85046               85701               85046               85701               
+CA                  92336               91115               92336               91115               
+CO                  80926               81062               80926               81062               
+CT                  6850                6243                6850                6243                
+DC                  20389               20501               20501               56901               
+DE                  19709               19802               19802               19709               
+FL                  33883               32204               33883               32204               
+FM                  96942               96943               96942               96943               
+GA                  31310               31537               30349               39826               
+HI                  96729               96752               96729               96752               
+IA                  50611               50559               50611               50559               
+ID                  83837               83623               83837               83623               
+IL                  62612               62469               62612               62469               
+IN                  47611               47402               47611               47402               
+KS                  67108               67521               67108               67521               
+KY                  41751               42713               41751               42713               
+LA                  71351               70079               71351               70079               
+MA                  1436                2464                2464                5501                
+MD                  21209               21022               21022               21209               
+ME                  4607                4020                4020                4953                
+MH                  96970               96960               96970               96960               
+MI                  49784               48531               49784               48531               
+MN                  56214               56754               56214               56754               
+MO                  63739               63137               63739               63137               
+MP                  96952               96950               96952               96950               
+MS                  39482               39236               39482               39236               
+MT                  59016               59710               59016               59710               
+NC                  28211               28054               28054               28211               
+ND                  58480               58730               58480               58730               
+NE                  68031               69211               68031               69211               
+NH                  3584                3609                3609                3584                
+NJ                  8026                7718                8026                7718                
+NM                  87038               87517               87038               87517               
+NV                  89159               89425               89159               89425               
+NY                  11581               13833               13833               501                 
+OH                  44854               45230               44854               45230               
+OK                  74651               73008               74651               73008               
+OR                  97253               97439               97253               97439               
+PA                  18764               16509               16509               18764               
+PW                  96940               96940               96940               96940               
+RI                  2812                2912                2912                2812                
+SC                  29920               29002               29002               29920               
+SD                  57328               57422               57328               57422               
+TN                  37881               37778               37881               37778               
+TX                  79556               78604               79556               78604               
+UT                  84784               84107               84784               84107               
+VA                  24656               23345               23345               24656               
+VT                  5680                5775                5680                5775                
+WA                  99217               98520               99217               98520               
+WI                  53969               54740               53969               54740               
+WV                  25024               25364               25364               25024               
+WY                  83112               82717               83112               82717               
+]0;de3464rs@csci4:~/Project2[de3464rs@csci4 Project2]$ ./a.outg++ testZip.cpp[K[K[K[K[K[K[KPlaxe[K[Kce.cpp[K[de3464rs@csci4 Project2]$ g++ testPlace.cpp[K[de3464rs@csci4 Project2]$ g++ testPlace.cpp
+]0;de3464rs@csci4:~/Project2[de3464rs@csci4 Project2]$ g++ testPlace.cpp[10P./a.out
+State               Easternmost Place   Westernmost Place   Southernmost Place  Northernmost Place  
+AA                  APO                 APO                 APO                 APO                 
+AK                  Kake                Dillingham          Kake                Dillingham          
+AL                  Tuskegee Institute  Alberta             Tuskegee Institute  Alberta             
+AP                  FPO                 FPO                 FPO                 FPO                 
+AR                  Ivan                Mc Rae              Ivan                Mc Rae              
+AZ                  Phoenix             Tucson              Phoenix             Tucson              
+CA                  Fontana             Pasadena            Fontana             Pasadena            
+CO                  Colorado Springs    Olney Springs       Colorado Springs    Olney Springs       
+CT                  Norwalk             East Killingly      Norwalk             East Killingly      
+DC                  Washington          Washington          Washington          Washington          
+DE                  Middletown          Wilmington          Middletown          Wilmington          
+FL                  Winter Haven        Jacksonville        Winter Haven        Jacksonville        
+FM                  Chuuk               Yap                 Chuuk               Yap                 
+GA                  Hinesville          Folkston            Hinesville          Folkston            
+HI                  Hoolehua            Kekaha              Hoolehua            Kekaha              
+IA                  Bristow             Lone Rock           Bristow             Lone Rock           
+ID                  Kellogg             Glenns Ferry        Kellogg             Glenns Ferry        
+IL                  Ashland             Trilla              Ashland             Trilla              
+IN                  Chrisney            Bloomington         Chrisney            Bloomington         
+KS                  Mount Hope          Brownell            Mount Hope          Brownell            
+KY                  Jeff                Bonnieville         Jeff                Bonnieville         
+LA                  Marksville          Norco               Marksville          Norco               
+MA                  Baldwinville        Newton Upper Falls  Baldwinville        Newton Upper Falls  
+MD                  Baltimore           Brooklandville      Baltimore           Brooklandville      
+ME                  Gouldsboro          Cornish             Gouldsboro          Cornish             
+MH                  Ebeye               Marshall Islands    Ebeye               Marshall Islands    
+MI                  Kincheloe           Flint               Kincheloe           Flint               
+MN                  Belview             Saint Hilaire       Belview             Saint Hilaire       
+MO                  Burfordville        Saint Louis         Burfordville        Saint Louis         
+MP                  Tinian              Saipan              Tinian              Saipan              
+MS                  Sumrall             Jackson             Sumrall             Jackson             
+MT                  Busby               Alder               Busby               Alder               
+NC                  Charlotte           Gastonia            Charlotte           Gastonia            
+ND                  Sanborn             Crosby              Sanborn             Crosby              
+NE                  Hooper              Cody                Hooper              Cody                
+NH                  Lancaster           North Walpole       Lancaster           North Walpole       
+NJ                  Gibbsboro           Belford             Gibbsboro           Belford             
+NM                  New Laguna          Carson              New Laguna          Carson              
+NV                  Las Vegas           Orovada             Las Vegas           Orovada             
+NY                  Valley Stream       Port Crane          Valley Stream       Port Crane          
+OH                  New Washington      Cincinnati          New Washington      Cincinnati          
+OK                  Red Rock            Bethany             Red Rock            Bethany             
+OR                  Portland            Florence            Portland            Florence            
+PA                  Wilkes Barre        Erie                Wilkes Barre        Erie                
+PW                  Palau               Palau               Palau               Palau               
+RI                  Carolina            Providence          Carolina            Providence          
+SC                  Saint Helena Island Ballentine          Saint Helena Island Ballentine          
+SD                  Corsica             Andover             Corsica             Andover             
+TN                  Thorn Hill          Lowland             Thorn Hill          Lowland             
+TX                  Sweetwater          Belmont             Sweetwater          Belmont             
+UT                  Hildale             Salt Lake City      Hildale             Salt Lake City      
+VA                  Vansant             Davis Wharf         Vansant             Davis Wharf         
+VT                  Wolcott             West Pawlet         Wolcott             West Pawlet         
+WA                  Spokane             Aberdeen            Spokane             Aberdeen            
+WI                  Wyocena             Elmwood             Wyocena             Elmwood             
+WV                  Bloomingrose        Charleston          Bloomingrose        Charleston          
+WY                  Bedford             Gillette            Bedford             Gillette            
+]0;de3464rs@csci4:~/Project2[de3464rs@csci4 Project2]$ ./a.out[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Thu 11 Apr 2024 12:46:14 AM CDT

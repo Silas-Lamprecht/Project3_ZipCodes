@@ -1,0 +1,246 @@
+Script started on Thu 11 Apr 2024 01:02:33 AM CDT
+]0;de3464rs@csci4:~/Project2[?1034h[de3464rs@csci4 Project2]$ ./a.outg++ testPlace.cppscript ScriptQ3.txt[12P./a.outg++ testRecordFinal.cpp./a.out[Kg++ testRecordFinal.cpp./a.out[Kscript ScriptQ3.txt[2Pg++ testPlace.cpp[10P./a.out[K./a.outg++ testPlace.cppscript ScriptQ3.txt[2Pg++ testPlace.cpp[K[K[K[K[K[K[K[K[KZio[Kp.cpp
+]0;de3464rs@csci4:~/Project2[de3464rs@csci4 Project2]$ g++ testZip.cpp[8P./a.out
+State Easternmost Zipcode Westernmost ZipcodeSouthernmost ZipcodeNorthernmost Zipcode
+AK                  99929               99725               99929               99725               
+AL                  36320               35182               36320               35182               
+AP                  96373               96507               96373               96507               
+AR                  72181               72524               72181               72524               
+AZ                  85050               85366               85050               85366               
+CA                  94037               92173               94037               92173               
+CO                  81611               80921               81611               80921               
+CT                  6351                6614                6351                6614                
+DC                  20319               20043               20043               56901               
+DE                  19731               19901               19901               19731               
+FL                  32457               32971               32457               32971               
+FM                  96944               96941               96944               96941               
+GA                  39813               30912               39813               39859               
+HI                  96750               96780               96750               96780               
+IA                  50050               50620               50050               50620               
+ID                  83424               83877               83424               83877               
+IL                  61423               60303               61423               60303               
+IN                  46798               46725               46798               46725               
+KS                  66431               67063               66431               67063               
+KY                  40348               42051               40348               42051               
+LA                  70659               71225               70659               71225               
+MA                  1772                2338                2338                5544                
+MD                  21133               21542               21542               21133               
+ME                  4364                3901                3901                4739                
+MH                  96960               96970               96960               96970               
+MI                  48615               49249               48615               49249               
+MN                  55731               56331               55731               56331               
+MO                  63787               64643               63787               64643               
+MP                  96952               96950               96952               96950               
+MS                  39212               39657               39212               39657               
+MT                  59028               59354               59028               59354               
+NC                  28605               28101               28101               28605               
+ND                  58838               58856               58838               58856               
+NE                  68643               68357               68643               68357               
+NH                  3298                3811                3811                3298                
+NJ                  7822                7456                7822                7456                
+NM                  88264               87513               88264               87513               
+NV                  89409               89008               89409               89008               
+NY                  13403               13849               13849               6390                
+OH                  45177               44429               45177               44429               
+OK                  73756               74344               73756               74344               
+OR                  97280               97487               97280               97487               
+PA                  17106               15258               15258               17106               
+PW                  96940               96940               96940               96940               
+RI                  2860                2905                2905                2860                
+SC                  29074               29450               29450               29074               
+SD                  57232               57725               57232               57725               
+StaCounty           Zipcodplace         Zipcodplace         Zipcodplace         Zipcodplace         
+TN                  38334               37765               38334               37765               
+TX                  75835               78330               75835               78330               
+UT                  84042               84408               84042               84408               
+VA                  20176               23518               23518               20176               
+VT                  5354                5730                5354                5730                
+WA                  98252               98612               98252               98612               
+WI                  54470               53137               54470               53137               
+WV                  25315               25268               25268               25315               
+WY                  82430               82073               82430               82073               
+]0;de3464rs@csci4:~/Project2[de3464rs@csci4 Project2]$ ./a.outg++ testZip.cpp[8P./a.outg++ testPlace.cpp
+]0;de3464rs@csci4:~/Project2[de3464rs@csci4 Project2]$ g++ testPlace.cpp[10P./a.out
+State               Easternmost Place   Westernmost Place   Southernmost Place  Northernmost Place  
+AK                  Wrangell            Ester               Wrangell            Ester               
+AL                  Cottonwood          Wattsville          Cottonwood          Wattsville          
+AP                  FPO                 FPO                 FPO                 FPO                 
+AR                  Wooster             Cord                Wooster             Cord                
+AZ                  Phoenix             Yuma                Phoenix             Yuma                
+CA                  Montara             San Ysidro          Montara             San Ysidro          
+CO                  Aspen               Colorado Springs    Aspen               Colorado Springs    
+CT                  Jewett City         Stratford           Jewett City         Stratford           
+DC                  Washington          Washington          Washington          Washington          
+DE                  Port Penn           Dover               Port Penn           Dover               
+FL                  Port Saint Joe      Winter Beach        Port Saint Joe      Winter Beach        
+FM                  Kosrae              Pohnpei             Kosrae              Pohnpei             
+GA                  Arlington           Augusta             Arlington           Augusta             
+HI                  Kealakekua          Papaaloa            Kealakekua          Papaaloa            
+IA                  Churdan             Colwell             Churdan             Colwell             
+ID                  Felt                Post Falls          Felt                Post Falls          
+IL                  Cameron             Oak Park            Cameron             Oak Park            
+IN                  Yoder               Columbia City       Yoder               Columbia City       
+KS                  Harveyville         Hillsboro           Harveyville         Hillsboro           
+KY                  Millersburg         Hickory             Millersburg         Hickory             
+LA                  Rosepine            Calhoun             Rosepine            Calhoun             
+MA                  Southborough        Halifax             Southborough        Halifax             
+MD                  Randallstown        Midland             Randallstown        Midland             
+ME                  Winthrop            Berwick             Winthrop            Berwick             
+MH                  Marshall Islands    Ebeye               Marshall Islands    Ebeye               
+MI                  Breckenridge        Jerome              Breckenridge        Jerome              
+MN                  Ely                 Freeport            Ely                 Freeport            
+MO                  Zalma               Hale                Zalma               Hale                
+MP                  Tinian              Saipan              Tinian              Saipan              
+MS                  Jackson             Osyka               Jackson             Osyka               
+MT                  Fishtail            Willard             Fishtail            Willard             
+NC                  Blowing Rock        Mc Adenville        Blowing Rock        Mc Adenville        
+ND                  Cartwright          Zahl                Cartwright          Zahl                
+NE                  Leigh               Filley              Leigh               Filley              
+NH                  Tilton              Atkinson            Tilton              Atkinson            
+NJ                  Augusta             Ringwood            Augusta             Ringwood            
+NM                  Maljamar            Arroyo Hondo        Maljamar            Arroyo Hondo        
+NV                  Gabbs               Caliente            Gabbs               Caliente            
+NY                  Marcy               Unadilla            Marcy               Unadilla            
+OH                  Wilmington          Lake Milton         Wilmington          Lake Milton         
+OK                  Loyal               Grove               Loyal               Grove               
+OR                  Portland            Veneta              Portland            Veneta              
+PA                  Harrisburg          Pittsburgh          Harrisburg          Pittsburgh          
+PW                  Palau               Palau               Palau               Palau               
+RI                  Pawtucket           Providence          Pawtucket           Providence          
+SC                  Liberty Hill        Huger               Liberty Hill        Huger               
+SD                  Eden                Caputa              Eden                Caputa              
+StaCounty           place               place               place               place               
+TN                  Finger              Kyles Ford          Finger              Kyles Ford          
+TX                  Crockett            Agua Dulce          Crockett            Agua Dulce          
+UT                  Lindon              Ogden               Lindon              Ogden               
+VA                  Leesburg            Norfolk             Leesburg            Norfolk             
+VT                  Vernon              Belmont             Vernon              Belmont             
+WA                  Granite Falls       Cathlamet           Granite Falls       Cathlamet           
+WI                  Rib Lake            Helenville          Rib Lake            Helenville          
+WV                  Charleston          Orma                Charleston          Orma                
+WY                  Kirby               Laramie             Kirby               Laramie             
+]0;de3464rs@csci4:~/Project2[de3464rs@csci4 Project2]$ ./a.outg++ testPlace.cpp[10P./a.outg++ testZip.cpp
+]0;de3464rs@csci4:~/Project2[de3464rs@csci4 Project2]$ g++ testZip.cpp[8P./a.out
+State Easternmost Zipcode Westernmost ZipcodeSouthernmost ZipcodeNorthernmost Zipcode
+AK                  99523               99610               99523               99610               
+AL                  35216               36475               35216               36475               
+AP                  96373               96208               96373               96208               
+AR                  72640               72927               72640               72927               
+AZ                  85923               86035               85923               86035               
+CA                  91118               93260               91118               93260               
+CO                  80454               81025               80454               81025               
+CT                  6920                6804                6920                6804                
+DC                  20078               20026               20026               56972               
+DE                  19717               19806               19806               19717               
+FL                  32617               32727               32617               32727               
+FM                  96943               96942               96943               96942               
+GA                  30364               30520               30265               39826               
+HI                  96753               96844               96753               96844               
+IA                  50638               50167               50638               50167               
+ID                  83639               83813               83639               83813               
+IL                  62901               61636               62901               61636               
+IN                  46277               46110               46277               46110               
+KS                  66039               67475               66039               67475               
+KY                  40026               40847               40026               40847               
+LA                  70377               70073               70377               70073               
+MA                  1835                1090                1090                5501                
+MD                  21861               21916               21916               21861               
+ME                  4429                4275                4275                4743                
+MH                  96960               96970               96960               96970               
+MI                  49965               48879               49965               48879               
+MN                  55038               56245               55038               56245               
+MO                  63381               64448               63381               64448               
+MP                  96952               96951               96952               96951               
+MS                  38873               39201               38873               39201               
+MT                  59102               59640               59102               59640               
+NC                  28159               28814               28814               28159               
+ND                  58492               58008               58492               58008               
+NE                  68056               68771               68056               68771               
+NH                  3044                3076                3076                3044                
+NJ                  8230                7842                8230                7842                
+NM                  87181               88056               87181               88056               
+NV                  89139               89403               89139               89403               
+NY                  10310               14617               14617               501                 
+OH                  45833               45426               45833               45426               
+OK                  74530               73743               74530               73743               
+OR                  97355               97011               97355               97011               
+PA                  16229               18928               18928               16229               
+PW                  96940               96940               96940               96940               
+RI                  2852                2829                2829                2852                
+SC                  29323               29481               29481               29323               
+SD                  57313               57570               57313               57570               
+StaCounty           ZipcodPlace         ZipcodPlace         ZipcodPlace         ZipcodPlace         
+TN                  38342               38343               38342               38343               
+TX                  79837               76458               79837               76458               
+UT                  84313               84020               84313               84020               
+VA                  22716               23691               23691               22716               
+VT                  5083                5155                5083                5155                
+WA                  98350               98020               98350               98020               
+WI                  54703               53523               54703               53523               
+WV                  25831               26035               26035               25831               
+WY                  82723               82833               82723               82833               
+]0;de3464rs@csci4:~/Project2[de3464rs@csci4 Project2]$ ./a.outg++ testZip.cpp
+]0;de3464rs@csci4:~/Project2[de3464rs@csci4 Project2]$ g++ testZip.cpp
+]0;de3464rs@csci4:~/Project2[de3464rs@csci4 Project2]$ g++ testZip.cpp[8P./a.outg++ testZip.cpp[8P./a.out
+State Easternmost Zipcode Westernmost ZipcodeSouthernmost ZipcodeNorthernmost Zipcode
+AK                  99523               99610               99523               99610               
+AL                  35216               36475               35216               36475               
+AP                  96373               96208               96373               96208               
+AR                  72640               72927               72640               72927               
+AZ                  85923               86035               85923               86035               
+CA                  91118               93260               91118               93260               
+CO                  80454               81025               80454               81025               
+CT                  6920                6804                6920                6804                
+DC                  20078               20026               20026               56972               
+DE                  19717               19806               19806               19717               
+FL                  32617               32727               32617               32727               
+FM                  96943               96942               96943               96942               
+GA                  30364               30520               30265               39826               
+HI                  96753               96844               96753               96844               
+IA                  50638               50167               50638               50167               
+ID                  83639               83813               83639               83813               
+IL                  62901               61636               62901               61636               
+IN                  46277               46110               46277               46110               
+KS                  66039               67475               66039               67475               
+KY                  40026               40847               40026               40847               
+LA                  70377               70073               70377               70073               
+MA                  1835                1090                1090                5501                
+MD                  21861               21916               21916               21861               
+ME                  4429                4275                4275                4743                
+MH                  96960               96970               96960               96970               
+MI                  49965               48879               49965               48879               
+MN                  55038               56245               55038               56245               
+MO                  63381               64448               63381               64448               
+MP                  96952               96951               96952               96951               
+MS                  38873               39201               38873               39201               
+MT                  59102               59640               59102               59640               
+NC                  28159               28814               28814               28159               
+ND                  58492               58008               58492               58008               
+NE                  68056               68771               68056               68771               
+NH                  3044                3076                3076                3044                
+NJ                  8230                7842                8230                7842                
+NM                  87181               88056               87181               88056               
+NV                  89139               89403               89139               89403               
+NY                  10310               14617               14617               501                 
+OH                  45833               45426               45833               45426               
+OK                  74530               73743               74530               73743               
+OR                  97355               97011               97355               97011               
+PA                  16229               18928               18928               16229               
+PW                  96940               96940               96940               96940               
+RI                  2852                2829                2829                2852                
+SC                  29323               29481               29481               29323               
+SD                  57313               57570               57313               57570               
+StaCounty           ZipcodPlace         ZipcodPlace         ZipcodPlace         ZipcodPlace         
+TN                  38342               38343               38342               38343               
+TX                  79837               76458               79837               76458               
+UT                  84313               84020               84313               84020               
+VA                  22716               23691               23691               22716               
+VT                  5083                5155                5083                5155                
+WA                  98350               98020               98350               98020               
+WI                  54703               53523               54703               53523               
+WV                  25831               26035               26035               25831               
+WY                  82723               82833               82723               82833               
+]0;de3464rs@csci4:~/Project2[de3464rs@csci4 Project2]$ exit
+exit
+
+Script done on Thu 11 Apr 2024 01:03:49 AM CDT
